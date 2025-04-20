@@ -29,10 +29,10 @@ O desafio proposto é desenvolver um sistema de gerenciamento para uma bibliotec
 -Repositório Usuário
 
 # Implementação da API REST
--Controlador Livro:
+-Controlador Livro
 
 # Front-end com Angular
-Criação do Projeto Angular:
+Criação do Projeto Angular
 
 Utilize o Angular CLI para criar um novo projeto.
 Instale o Angular Material para componentes UI
