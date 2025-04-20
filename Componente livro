@@ -1,0 +1,19 @@
+import { Component, OnInit } from '@angular/core';
+import { LivroService } from './livro.service';
+import { Livro } from './livro.model';
+
+@Component({
+    selector: 'app-livro',
+    templateUrl: './livro.component.html'
+})
+export class LivroComponent implements OnInit {
+    livros: Livro[] = [];
+
+    constructor(private livroService: LivroService) { }
+
+    ngOnInit(): void {
+        this.livroService.listarLivros().subscribe(data => {
+            this.livros = data;
+        });
+    }
+}
