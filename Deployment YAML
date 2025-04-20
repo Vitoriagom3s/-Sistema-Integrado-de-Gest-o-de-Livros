@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: biblioteca
+spec:
+    replicas: 2
+    selector:
+        matchLabels:
+            app: biblioteca
+    template:
+        metadata:
+            labels:
+                app: biblioteca
+        spec:
+            containers:
+            - name: biblioteca
+              image: biblioteca:latest
+              ports:
+              - containerPort: 8080
