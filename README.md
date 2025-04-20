@@ -18,6 +18,38 @@ O desafio proposto é desenvolver um sistema de gerenciamento para uma bibliotec
 
 *Kubernetes*: Sistema de orquestração de containers que pode ter sido utilizado para gerenciar a implantação, escalabilidade e operação da aplicação em ambientes de produção.
 
+# Definição de entidades
+
+-Entidade Livro
+-Entidade Usuário
+
+# Definição repositórios
+
+-Repositório Livro
+-Repositório Usuário
+
+# Implementação da API REST
+-Controlador Livro:
+
+# Front-end com Angular
+Criação do Projeto Angular:
+
+Utilize o Angular CLI para criar um novo projeto.
+Instale o Angular Material para componentes UI
+
+# Interface do Usuário
+Componente Livro
+
+# Configuração do Banco de Dados
+application.properties
+
+# Containerização com Docker
+Dockerfile
+
+# Orquestração com Kubernetes
+Deployment YAML
+
+
 # Funcionalidades
 - **Busca por Categoria**: Permite que os usuários busquem pela categoria.
 - **Interface Interativa**: O sistema oferece uma interface de linha de comando onde os usuários podem realizar buscas repetidamente.
