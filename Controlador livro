@@ -1,0 +1,18 @@
+@RestController
+@RequestMapping("/api/livros")
+public class LivroController {
+    @Autowired
+    private LivroRepository livroRepository;
+
+    @GetMapping
+    public List<Livro> listarLivros() {
+        return livroRepository.findAll();
+    }
+
+    @PostMapping
+    public Livro adicionarLivro(@RequestBody Livro livro) {
+        return livroRepository.save(livro);
+    }
+
+    // Outros métodos para atualizar e deletar livros
+}
