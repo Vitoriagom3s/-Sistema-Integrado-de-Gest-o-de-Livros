@@ -1,0 +1,21 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+import { Livro } from './livro.model';
+
+@Injectable({
+    providedIn: 'root'
+})
+export class LivroService {
+    private apiUrl = 'http://localhost:8080/api/livros';
+
+    constructor(private http: HttpClient) { }
+
+    listarLivros(): Observable<Livro[]> {
+        return this.http.get<Livro[]>(this.apiUrl);
+    }
+
+    adicionarLivro(livro: Livro): Observable<Livro> {
+        return this.http.post<Livro>(this.apiUrl, livro);
+    }
+}
