@@ -1,1 +1,1 @@
-# -Sistema-Integrado-de-Gest-o-de-Livros
+# - Sistema Integrado de Gestão de Livros
