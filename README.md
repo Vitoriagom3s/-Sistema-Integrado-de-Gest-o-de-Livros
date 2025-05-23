@@ -2,8 +2,133 @@
 
 ![image](https://www.unitins.br/cms/Midia/Imagens/ZKHUWL7I4Z0CXISNQ5AWOJ7QYTX3UX6WSR4NE1RVO.jpg)
 
+As bibliotecas são pontos centrais para o acesso à informação e cultura na sociedade. No entanto, enfrentam desafios na gestão do acervo e atendimento, principalmente devido a processos manuais e sistemas antiquados. A modernização com soluções digitais é essencial para garantir eficiência e acessibilidade, facilitando o uso para bibliotecários e usuários.
+
 # Sobre o Projeto
 O desafio proposto é desenvolver um sistema de gerenciamento para uma biblioteca municipal que permita a administração eficaz de livros. O sistema deve possibilitar o cadastro de novos títulos, consulta de livros, exclusão de um livro e atualização de um livro cadastrado (CRUD).
+
+# Teoria na Prática
+
+-Fontes de pesquisa primária
+
+*Livro*: "Sistemas de Informação: Conceitos e Práticas" (Autor: Ralph Stair)
+
+*Artigo*: "Sistemas digitais para bibliotecas públicas" - Revista de Biblioteconomia 2022
+
+*Website*: Biblioteca Nacional do Brasil (www.bn.gov.br)
+
+*Vídeo tutorial*: "Construindo um CRUD com Spring Boot e React" no YouTube
+
+# Aulas úteis para consulta
+
+Programação Orientada a Objetos (POO)
+
+Desenvolvimento Web (Front-end e Back-end)
+
+Banco de Dados Relacionais
+
+
+# Levantamento de Soluções
+
+Principais causas da ineficiência
+
+Falta de sistema digital integrado
+
+Processos manuais e burocráticos
+
+Catalogação desorganizada
+
+# Principais afetados
+
+Bibliotecários, que perdem tempo com tarefas repetitivas
+
+Usuários, que enfrentam demora no atendimento
+
+Administração, que não tem controle eficiente
+
+# Possíveis soluções
+Software de gerenciamento integrado: prós (automatização, rapidez), contras (custo, treinamento)
+
+Treinamento dos funcionários: melhora uso do sistema, mas demanda recursos
+
+Digitalização do acervo: acesso remoto, porém investimento elevado
+
+# Barreiras ao implementar
+Resistência dos funcionários à mudança
+
+Custos na aquisição e manutenção do sistema
+
+Necessidade de treinamento contínuo
+
+Integração com sistemas existentes
+
+# Relação com POO
+
+Encapsulamento para proteger dados dos livros
+
+Herança para reaproveitar código de classes genéricas
+
+Polimorfismo para permitir operações diversas em livros e objetos relacionados
+
+# Implicações de não resolver a ineficiência
+
+Perda crescente de usuários
+
+Diminuição de financiamentos
+
+Impacto negativo na promoção da leitura local
+
+# Proposta da Solução
+Desenvolver um sistema web baseado em Spring Boot para back-end e React para front-end, com banco de dados MySQL para armazenar o acervo. O sistema permitirá:
+
+Cadastro de novos livros com campos: título, autor, editora, ano, ISBN
+
+Consulta de livros cadastrados
+
+Atualização de dados cadastrais
+
+Exclusão de livros obsoletos
+
+-Esse projeto garante agilidade e controle na biblioteca, além de melhor experiência para os usuários.
+
+# Plano de ação
+
+Semana 1: Modelagem do banco e criação do diagrama de classes
+
+Semana 2: Desenvolvimento do back-end com Spring Boot e integração com MySQL
+
+Semana 3: Criação do front-end em React, consumindo as APIs do back-end
+
+Semana 4: Testes, ajustes finais e documentação para uso e instalação
+
+%  Diagrama de Classes
+(classes principais e seus atributos/métodos)
+
+Livro
+
+- Atributos: id, título, autor, editora, ano, isbn
+
+- Métodos: cadastrar(), consultar(), atualizar(), deletar()
+
+Biblioteca
+
+- Atributos: listaLivros
+
+- Métodos: adicionarLivro(), removerLivro(), buscarLivro()
+
+Usuário
+
+- Atributos: id, nome, email
+
+- Métodos: login(), logout()
+
+# Justificativa das escolhas
+  
+A estrutura proposta usa POO para facilitar a manutenção e escalabilidade do sistema. O Spring Boot é uma escolha sólida para backend Java, com boa integração com bancos relacionais. React no front-end oferece uma interface moderna e responsiva. MySQL é estável e amplamente usado para dados relacionais.
+
+#  Autoavaliação
+Durante o desenvolvimento deste trabalho, aprendi a aplicar conceitos de POO e tecnologias web na prática. Poderia melhorar o aprofundamento no front-end para maior interatividade, mas o sistema cumpre os requisitos básicos. Futuramente, poderia incluir funcionalidades como gerenciamento de usuários e reservas de livros.
+
 
 # Tecnologias Utilizadas
 *Java*: Linguagem de programação principal utilizada para o desenvolvimento do sistema.
@@ -54,7 +179,6 @@ Deployment YAML
 - **Busca por Categoria**: Permite que os usuários busquem pela categoria.
 - **Interface Interativa**: O sistema oferece uma interface de linha de comando onde os usuários podem realizar buscas repetidamente.
 - **Acervo Digital**: Informa ao usuário produtos do momento.
-
 
 # Considerações Finais
 *Encapsulamento*:
