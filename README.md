@@ -1,6 +1,6 @@
 # Sistema Integrado de Gestão de Livros
 
-![image](https://www.unitins.br/cms/Midia/Imagens/ZKHUWL7I4Z0CXISNQ5AWOJ7QYTX3UX6WSR4NE1RVO.jpg)
+![image](https://www.ifmg.edu.br/portal/noticias/popularizacao-das-bibliotecas-virtuais-inspira-projeto-no-ifmg/imagem-site-tipo-retangular.jpg/@@images/00aea669-2214-4005-8623-5b0d6977acab.jpeg)
 
 As bibliotecas são pontos centrais para o acesso à informação e cultura na sociedade. No entanto, enfrentam desafios na gestão do acervo e atendimento, principalmente devido a processos manuais e sistemas antiquados. A modernização com soluções digitais é essencial para garantir eficiência e acessibilidade, facilitando o uso para bibliotecários e usuários.
 
@@ -131,47 +131,34 @@ Durante o desenvolvimento deste trabalho, aprendi a aplicar conceitos de POO e t
 
 
 # Tecnologias Utilizadas
-*Java*: Linguagem de programação principal utilizada para o desenvolvimento do sistema.
 
-*Spring Boot*: Framework responsável pela construção do back-end, facilitando a configuração e a criação de aplicações Java.
 
-*Hibernate*: Framework de mapeamento objeto-relacional (ORM) utilizado para a persistência de dados, simplificando a interação com o banco de dados.
+- `Javascript`
+- `HTML`
+- `CSS`
 
-*Front-end Frameworks*: Tecnologias como Angular ou React foram utilizadas para desenvolver a interface do usuário, proporcionando uma experiência interativa e responsiva.
-
-*Docker*: Ferramenta para containerização da aplicação, permitindo que o sistema seja executado em ambientes isolados e consistentes.
-
-*Kubernetes*: Sistema de orquestração de containers que pode ter sido utilizado para gerenciar a implantação, escalabilidade e operação da aplicação em ambientes de produção.
-
-# Definição de entidades
-
+## Definição de entidades
 -Entidade Livro
 -Entidade Usuário
-
-# Definição repositórios
-
+##Definição repositórios
 -Repositório Livro
 -Repositório Usuário
-
-# Implementação da API REST
+## Implementação da API REST
 -Controlador Livro
-
-# Front-end com Angular
+## Front-end com Angular
 Criação do Projeto Angular
 
 Utilize o Angular CLI para criar um novo projeto.
 Instale o Angular Material para componentes UI
 
-# Interface do Usuário
+#Geral:
+## Interface do Usuário
 Componente Livro
-
-# Configuração do Banco de Dados
+## Configuração do Banco de Dados
 application.properties
-
-# Containerização com Docker
+## Containerização com Docker
 Dockerfile
-
-# Orquestração com Kubernetes
+## Orquestração com Kubernetes
 Deployment YAML
 
 
@@ -179,6 +166,20 @@ Deployment YAML
 - **Busca por Categoria**: Permite que os usuários busquem pela categoria.
 - **Interface Interativa**: O sistema oferece uma interface de linha de comando onde os usuários podem realizar buscas repetidamente.
 - **Acervo Digital**: Informa ao usuário produtos do momento.
+
+#  Telas
+
+![gitvideo](https://user-images.githubusercontent.com/23708544/92531192-35863400-f204-11ea-8909-31365df45f68.gif)
+
+![1](https://user-images.githubusercontent.com/23708544/92529951-d58e8e00-f201-11ea-8bf6-8d1a5e1e8683.png)
+
+![2](https://user-images.githubusercontent.com/23708544/92529954-d6272480-f201-11ea-88b0-10ee1f3279d3.png)
+
+![3](https://user-images.githubusercontent.com/23708544/92529959-d9221500-f201-11ea-9e6d-1a0fdf526c81.png)
+
+![4](https://user-images.githubusercontent.com/23708544/92529997-e9d28b00-f201-11ea-994f-0b6fe357ad60.png)
+
+![5](https://user-images.githubusercontent.com/23708544/92530000-eb9c4e80-f201-11ea-863a-f462faff6b61.png)
 
 # Considerações Finais
 *Encapsulamento*:
